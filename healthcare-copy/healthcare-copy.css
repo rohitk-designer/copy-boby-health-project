@@ -1,0 +1,89 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+  display:flex;
+
+}
+section .content{
+    width:800px;
+    
+    border:70px solid lightgreen;
+    justify-content: center;
+    margin: 5% 40%;
+    border-color:linear-gradientrgb(123, 38, 38);
+}
+section .content .items{
+    padding:5px 30px  5px 30px ;
+}
+h1{
+    font-size:33px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    color:lightgreen;
+    line-height: 70px;
+}
+section .content label{
+    font-size:18px;
+    line-height: 40px;
+    align-items:end;
+    
+
+}
+section .content  .items .name{
+    width:48%;
+    height:40px;
+    margin-right: 6px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border: 2px solid lightgreen;
+}
+section .content  .items input::placeholder{
+    font-size: 17px;
+}
+section .content  .items .pad{
+    margin-bottom:12px;
+}
+section .content  .items .same{
+    width:98%;
+    height:40px;
+    border-radius:20px ;
+    border: 2px solid lightgreen;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+section .content  .items .upper{
+    margin-top:18px;
+}
+section .content  .items .down{
+    margin-bottom: 10px;
+}
+section .content  .items button{
+    width:98%;
+    height:40px;
+    color:black;
+    font-size:20px;
+    text-transform: uppercase;
+    background-color: lightgreen;
+    border:2px solid lightgreen;
+    border-radius: 20px;
+    margin:13px 0px;
+    
+
+}
+section .content  .items button a{
+    text-decoration: none;
+
+}
+
+
+
